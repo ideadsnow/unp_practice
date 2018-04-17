@@ -6,10 +6,9 @@
 #define UNP_PRACTICE_UNP_H
 
 #define SERV_PORT 3333
-
 #define MAXLINE 4096
-
 #define OPEN_MAX 1024 // max open files
+#define MAX_EVENTS 10
 
 #define    min(a, b)    ((a) < (b) ? (a) : (b))
 #define    max(a, b)    ((a) > (b) ? (a) : (b))
