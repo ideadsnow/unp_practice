@@ -1,19 +1,20 @@
-# UNIX 网络编程各种范式
+# UNIX Network Programming Demo
 
-## 系统环境
+## Enviroment
 Ubuntu 17.10
 
-## 大纲&进度
-迭代服务器（iterative server） -> 过于简单就不写了
+## List && Progress
+iterative server -> foolish, just skip it.
 
-并发服务器（concurrent server） -> 完成，multiprocess 
+concurrent server -> ok 
 
-I/O 复用模型
-- select
+I/O multiplexing 
+- select -> ok
+- poll
 - epoll
 
-多线程模型
+multithreads
 
-预先派生子进程（preforking）
+preforking
 
-预先创建线程（prethreading）
+prethreading

@@ -11,7 +11,6 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <memory.h>
-#include <errno.h>
 #include "../unp.h"
 
 void str_cli(FILE *fp, int sockfd);
