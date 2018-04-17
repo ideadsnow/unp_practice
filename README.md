@@ -10,8 +10,8 @@ concurrent server -> ok
 
 I/O multiplexing 
 - select -> ok
-- poll
-- epoll
+- poll -> ok
+- epoll -> ok
 
 multithreads
 
