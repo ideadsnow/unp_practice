@@ -9,6 +9,8 @@
 
 #define MAXLINE 4096
 
+#define OPEN_MAX 1024 // max open files
+
 #define    min(a, b)    ((a) < (b) ? (a) : (b))
 #define    max(a, b)    ((a) > (b) ? (a) : (b))
 
@@ -21,6 +23,9 @@
 #include <strings.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
+#include <sys/types.h>
+#include <bits/types/FILE.h>
+#include <limits.h>
 
 
 ssize_t readn(int fd, void *vptr, size_t n);
